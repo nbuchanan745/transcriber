@@ -13,7 +13,7 @@ The program takes two arguments, wav file name and tempo. Tempo is optional, if 
 
 To run the program, type
 
-./transcriptor wavfilesname.wav 110
+./a.out wavfilesname.wav 110
 
 When run, the program will print to the terminal sample rate information from the wav file and then will print off every detected frequency as it processes the wav file. Upon succesfull completetion, it will create the file <wavfilesname.wav>.ly using a filtered list of detected frequencies. The output file can be converted into sheet music by running the program lilypond from the terminal.
 
